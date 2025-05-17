@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(214, 254, 255);
+}
+
+.nome{
+    color: rgb(51, 48, 239);
+    text-align: center;
+}
+
+.apresentacao{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.lista > li{
+    margin-bottom: 1em;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+  }
+
+tr, td{
+    border: 3px solid black;
+    text-align: center;
+}
+
+.paises{
+    width: 500px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.topicos{
+    font-weight: bold;
+}
+
+.hobbies{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.img-hobbie{
+    margin-left: 10px;
+    border-radius: 0px;
+}
+
+.linha-centro {
+      text-align: center;
+      margin-top: 50px; /* você pode ajustar isso conforme necessário */
+    }
+
+    #mensagem {
+      color: red;
+      margin-top: 10px;
+      display: none;
+      text-align: center;
+    }
